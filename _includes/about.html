@@ -1,0 +1,94 @@
+<!--<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Load Bootstrap css
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--load font awesome
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head> -->
+
+<div class="about row">
+    <div class="col-md-8">
+        <br />
+        <h2><font face="Fontin-Sans" size="30px" color="black">Contact</font></h2>
+            <a href="https://plus.google.com/100835538670504283204/posts"><img src="/images/google@2x.png" style="margin-right:20px;"></a>
+            <a href="https://github.com/shahsaurabh0605"><img src="/images/github@2x.png" style="margin-right:20px;"></a>
+            <a href="https://www.facebook.com/saurabh.shah.507"><img src="/images/facebook@2x.png" style="margin-right:20px;"></a>
+            <a href="https://twitter.com/shahsaurabh0605"><img src="/images/twitter@2x.png" style="margin-right:20px;"></a>
+      <!--  <ul>
+            <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /> <a href="mailto:{{ site.email }}" target="_top"><font size="+2">{{ site.email }}</font></a></li>
+            <br />
+            <br />
+            <li>Github：<a href="{{ site.github_url }}">{{ site.github_username }}</a></li>
+            <br />
+            <br />
+            <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /> <a href="{{ site.facebook }}"><font size="+2">{{ site.name }}</font></a></li>
+            <br />
+            <br />
+            <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /> <a href="{{ site.twitter }}"><font size="+2">@{{ site.twitter_handle }}</font></a>
+        </ul> -->
+        <br />
+        <br />
+        <br />
+        <br />
+          <h2><font face="Fontin-Sans" size="30px" color="black">Skill Keywords</font></h2>
+
+        {% if site.skill_software_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Software Engineer Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_software_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+    <!--    {% if site.skill_j2ee_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">J2EE Developer Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_j2ee_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_mobile_app_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Mobile Developer Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_mobile_app_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}  -->
+
+        {% if site.skill_web_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Web Developer Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_web_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+    </div>
+
+    <div class="col-md-4">
+        {% include sidebar-popular-repo.html %}
+    </div>
+
+</div>

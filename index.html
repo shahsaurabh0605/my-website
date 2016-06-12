@@ -1,0 +1,114 @@
+---
+layout: default
+menu: home
+css: ['index.css', 'sidebar-popular-repo.css', 'introduction.css']
+---
+ <section class="jumbotron">
+    <div class="container">
+      <div class="col-sm-2">
+      </div>
+	<div class="col-sm-3">
+		    <img src="/images/avatar.jpg" class="img-circle" alt="Cinque Terre" width="204" height="200">
+</div>
+<div class="col-sm-7">
+  <div class="row-sm-4">
+    <h1>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Times New Roman" />
+  <font face="Times New Roman">Saurabh Shah</font>
+    </h1>
+<!-- <h1>{{ site.name }}</h1> -->
+<!--      <div id="jumbotron-meta-info">
+          <span class="meta-info">
+              <span class="octicon octicon-location"></span>
+              {{ site.location }}
+          </span>
+          <!-- <span class="meta-info hvr-grow">
+              <span class="octicon octicon-organization"></span>
+              <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
+          </span>
+          <span class="meta-info hvr-grow">
+              <span class="octicon octicon-mark-github"></span>
+              <a href="{{ site.github_url }}" target="_blank">{{ site.github_username }}</a>
+          </span> -->
+      </div>
+        <div class="row-sm-8">
+    		    <span class= "meta-info">
+     			      <p>Geek, Nerd, Tech Enthusiast!!!</p>
+            </span>
+      </div>
+    </div>
+</div>
+    </div>
+</section>
+ <section class="content container">
+
+    <div class="row">
+
+        <!-- Post List -->
+        <div class="col-md-8">
+          <h1 class="saurabh">ME!!</h1>
+
+          <p class="saurabh1"><span class="first-letter">L</span>orem Ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type
+               specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was
+                 popularised in the 1960s with the release of Letraset sheets containing
+                 Lorem Ipsum passages, and more recently with desktop publishing software
+                 like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <!--        <ol class="post-list">
+                {% for post in paginator.posts %}
+                <li class="post-list-item">
+                    <h2 class="post-list-title">
+                        <a class="hvr-underline-from-center" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                    </h2>
+                    <p class="post-list-description">
+                        {{ post.excerpt | strip_html | strip }}
+                    </p>
+                    <p class="post-list-meta">
+                        <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
+                    </p>
+                </li>
+                {% endfor %}
+            </ol>
+
+            <!-- Pagination
+            {% include pagination.html %}
+
+            <!-- Comments
+            {% include disqus-comments.html %}  -->
+
+        </div>
+
+       <div class="col-md-4">
+            {% include sidebar-popular-repo.html %}
+        </div>
+
+    </div>
+
+</section>
+
+ <!--	<head>
+  		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  		<meta name="description" content="" />
+  		<meta name="keywords" content="" />
+  		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+  	<!--	<script src="/js/jquery.min.js"></script>
+  		<script src="/js/jquery.poptrox.min.js"></script>
+  		<script src="/js/skel.min.js"></script>
+  	        <script src="/js/init.js"></script>
+  		<noscript>
+  			<link rel="stylesheet" href="/css/skel.css" />
+  			<link rel="stylesheet" href="/css/style.css" />
+  			<link rel="stylesheet" href="/css/style-xlarge.css" />
+  		</noscript>
+  		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+  <!--	</head>
+
+	<body id="top">
+
+      <header id="header">
+          <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+          <h1><strong>I am <a href="/">Saurabh Shah </a></strong>, programmer, <br />
+          Gsocer and much more</h1>
+      </header>
