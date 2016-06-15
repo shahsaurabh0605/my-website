@@ -1,0 +1,36 @@
+/** Only for index.html **/
+
+.site-header{
+  background-color: #3138c2;
+background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+}
+
+.site-header #site-header-brand {
+    color: #fff;
+}
+
+.site-header .site-header-nav-item {
+    color: #000; /*#9acfea;*/
+}
+
+.site-header a:hover {
+    color: #fff;
+}
+
+.jumbotron {
+  background-color: #3138c2;
+background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.site-header.site-header-nav-scrolled a {
+    color: #2e2e2e;
+}
+
+.site-header.site-header-nav-scrolled #site-header-brand {
+    color: #2e2e2e !important;
+}
+
+.site-header.site-header-nav-scrolled a:hover {
+    color: #4183c4;
+}
