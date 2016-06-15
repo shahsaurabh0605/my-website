@@ -19,32 +19,3 @@ css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon
 
 {% include about.html %}
 
-
-
------------------------------------------------------------------------------------------------------------------------------------------
-
-ul li {
-float:left;
-display:block;
-}
-
-.icon {
-width:25px;
-height:25px;
-display:block;
-text-indent:-9999px;
-background-image:url(http://tridentdesign.com/wp-content/uploads/2012/12/gemicon.jpg);
-background-repeat:no-repeat;
-}
-
-.facebook {
-background-position:-140px -115px;
-background: #4060A5;
-}
-.twitter {
-background-position:-185px -115px;
-background: #00ABE3;
-}
-.googleplus {
-background-position:-140px -265px;
-}
