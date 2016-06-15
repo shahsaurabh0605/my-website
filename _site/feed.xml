@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yo, Saurabh Shah</title>
+    <title>Saurabh Shah</title>
     <description>I like my website</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jun 2016 18:42:12 +0530</pubDate>
-    <lastBuildDate>Wed, 15 Jun 2016 18:42:12 +0530</lastBuildDate>
+    <pubDate>Wed, 15 Jun 2016 17:29:51 +0530</pubDate>
+    <lastBuildDate>Wed, 15 Jun 2016 17:29:51 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -20,13 +20,11 @@
 &lt;h2 id=&quot;licence&quot;&gt;Licence&lt;/h2&gt;
 </description>
         <pubDate>Fri, 13 May 2016 16:55:35 +0530</pubDate>
-        <link>http://localhost:4000/jekyll/update/2016/05/13/welcome-to-yummy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/05/13/welcome-to-yummy.html</guid>
+        <link>http://localhost:4000/personal/2016/05/13/welcome-to-yummy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/personal/2016/05/13/welcome-to-yummy.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>Personal</category>
         
       </item>
     
@@ -233,13 +231,13 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 22 Apr 2016 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/css/2016/04/22/CSS-Animation.html</link>
-        <guid isPermaLink="true">http://localhost:4000/css/2016/04/22/CSS-Animation.html</guid>
+        <link>http://localhost:4000/gsoc/2016/04/22/CSS-Animation.html</link>
+        <guid isPermaLink="true">http://localhost:4000/gsoc/2016/04/22/CSS-Animation.html</guid>
         
         <category>css</category>
         
         
-        <category>CSS</category>
+        <category>GSoC</category>
         
       </item>
     
