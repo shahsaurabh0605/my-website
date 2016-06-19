@@ -1,12 +1,10 @@
-# Yummy Jekyll Theme
+# Jekyll Theme
 
-A Simple, Bootstrap Based Theme. Especially for developers who like to show their projects on website and like to take notes. There are also some magical features to discover. 
+A Simple, Bootstrap Based Theme. Especially for bloggers and developers who like to show their projects on website and love to write. There are also some magical features to discover. 
 
-## [Live Demo](http://dongchuan.github.io/)
+## [Live Demo](http://shahsaurabh.me)
 
 Open issues if you find bugs or even have trouble installing jekyll or dependencies. :D
-
-Or contact: dongchuan55@gmail.com
 
 > Strongly suggest to fork and change project name to create your GitHub Pages instead of downloading it directly. Because in the future, I will develop many funny modules like 'footprint' to show your world wide trip. Could be easier to merge new features in the future.
 
@@ -14,12 +12,8 @@ Or contact: dongchuan55@gmail.com
 
 * Compatible with Jekyll 3.x and GitHub Pages
 * Based on Bootstrap
-* [Github Module](http://dongchuan.github.io/open-source) to show your popular projects in a single page and on sidebar automatically. (Datas are retreived by github metadata instead of by api calls, so no delay) 
-* [Post Module](http://dongchuan.github.io/blog) to show all your posts with timeline
-* [Bookmark Module](http://dongchuan.github.io/bookmark) to establish a quick mark about all libs/tools/books you like to use.
-* [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html) to generat a quick directory of your post by titles/subtitles automatically.
-* Support [Disqus Comment](https://disqus.com/home/explore/)
-* Support [Google Analytics](https://analytics.google.com/analytics/web/)
+* [Github Module](http://shahsaurabh.me/open-source) to show your popular projects in a single page and on sidebar automatically. (Datas are retreived by github metadata instead of by api calls, so no delay) 
+* [Post Module](http://shahsaurabh.me/blog) to show all your posts with timeline
 
 Features in future:
 * A Footprint module to show all your travel around the world
@@ -41,13 +35,7 @@ Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bun
 
 > When install dependencies by bundler or gem, you may have some errors depending on your environment.
 
-> Error about `json`. Check response of [Massimo Fazzolari on Stackoverflow](http://stackoverflow.com/questions/8100891/the-json-native-gem-requires-installed-build-tools) to quick fix your problem. (Please also use latest version instead of 1.9.3 mentioned in the response)
-  
-> Error about `jekyll-paginate`. Please check [here](http://stackoverflow.com/questions/35401566/dont-have-jekyll-paginate-or-one-of-its-dependencies-installed)
-
-> Error about `SSL_connect`. Please check [here](http://stackoverflow.com/questions/15305350/gem-install-fails-with-openssl-failure) and [here](http://railsapps.github.io/openssl-certificate-verify-failed.html)
-
-> For the moment, when you test on your local, you need to keep internet connection. Bug will be fixed soon.
+> For the moment, when you test on your local, you need to keep internet connection to fetch information from github.
 
 ## How to use
 
@@ -72,14 +60,10 @@ tags: [tag1, tag2]
 ---
 ```
 
-Please find examples [here](https://github.com/DONGChuan/DONGChuan.github.io/tree/master/_posts)
-
-#### [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html)
-
 When writing post, please always follow this format:
 
 ```
-Description about this post, blablabla
+Description about the post, blablabla
 
 ## Title A
 
@@ -95,20 +79,15 @@ Description about this post, blablabla
 
 So, Title A, A-1, A-2, Title B, B-1 will be detected and created as a directory
 
-For example, [a demo post](https://github.com/DONGChuan/DONGChuan.github.io/edit/master/_posts/2016-04-22-CSS-Animation.md)
 
-#### [Github Module](http://dongchuan.github.io/open-source)
+#### [Github Module](http://shahsaurabh.me/open-source)
 
 This module will get automatically all your repository information from github. But to test on your local, you must keep internet connection. 
 In the future, it will also show the repositories you contributed a lot and the ones of your organization.
 
-#### [Bookmark Module](http://dongchuan.github.io/bookmark)
+#### [Customize About Page](http://shahsaurabh.me/about)
 
-To add new marks, you only need to edit [bookmark.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/bookmark.md).
-
-#### [Customize About Page](http://dongchuan.github.io/about)
-
-Feel free to customize about.me page to show yourself. You only need to modify [about.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/about.md) and [about.html](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/_includes/about.html)
+Feel free to customize about.me page to show yourself. You only need to modify [about.md](https://github.com/shahsaurabh0605/my-website/blob/master/about.md) and [about.html](https://github.com/shahsaurabh0605/my-website/blob/master/includes/about.html)
 
 ## ToDo
 

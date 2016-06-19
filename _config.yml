@@ -14,16 +14,14 @@ facebook: https://www.facebook.com/saurabh.shah.507
 twitter: https://twitter.com/shahsaurabh0605
 twitter_handle: shahsaurabh0605
 github_username: shahsaurabh0605
-company_url: https://github.com/shahsaurabh0605
 github_url: https://github.com/shahsaurabh0605 # ex. https://github.com/DONGChuan
-description: I like my website
 favicon: favicon.png # Image must be in assets/images
 repository: shahsaurabh0605/shahsaurabh0605.github.io
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-#url: http://shahsaurabh0605.github.io
-url: http://localhost:4000
+url: http://shahsaurabh.me
+#url: http://localhost:4000
 
 ## Gem
 gems:
