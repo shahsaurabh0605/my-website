@@ -3,11 +3,99 @@
   <channel>
     <title>Saurabh Shah</title>
     <description></description>
-    <link>http://shahsaurabh.me/</link>
-    <atom:link href="http://shahsaurabh.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Jun 2016 17:03:39 +0530</pubDate>
-    <lastBuildDate>Sun, 19 Jun 2016 17:03:39 +0530</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 24 Jun 2016 12:39:07 +0530</pubDate>
+    <lastBuildDate>Fri, 24 Jun 2016 12:39:07 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>How to crack GSOC?</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img align=&quot;left&quot; src=&quot;/images/GSOC/gsoc2016logo.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Google Summer of Code&lt;/i&gt; is a global program that offers student developers stipends to write code for various open source software projects. It’s main aim is to introduce students to the world of open source programming. It is the best opportunity a student can get during his college career to work on real world software projects. I am currently a GSoC student in Ruby organization. In this post I will walk your way through, step by step, on how to crack Google Summer of Code.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Flip bits, not burgers!&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bwake-up-earlyb&quot;&gt;&lt;b&gt;Wake up early!&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;If you are really interested in GsoC, rise early. Make up your mind and kill your time surfing different open source organizations. If you have never contributed open source before then you are going to take an ample amount of time learning the way things work. Remember that its never too early to start preparing for GsoC. After all, GsoC is all about open source contributions which can be done at any stage of life.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;The distance is nothing; it&#39;s only the first step that is difficult.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bmake-new-friends--ubuntu-and-githubb&quot;&gt;&lt;b&gt;Make new friends : Ubuntu and Github&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;If you are a windows user I suggest switching to any of the flavours of ubuntu as quickly as possible. Start befriending your terminal and become familiar with the tools you use. Most of the software installations are pretty easy on ubuntu and many of them don’t even have windows support. Start using ubuntu on daily basis and you will love it!&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Avoid the Gates of Hell. Use ubuntu.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;All organizations use some form of &lt;a href=&quot;https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&quot;&gt;version control&lt;/a&gt; and most of them use git. Github makes it quick and easy for you to publish your work and collaborate on the work of other people. So if you are unfamiliar with words like version control, git, github then the first task is to master them.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bfinding-organizationsb&quot;&gt;&lt;b&gt;Finding organizations&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;When I started with GsoC, all I used to hear is first select one programming language of your choice and select an organization based on that. I completely disagree with this. I think you need to be versatile in selecting the organizations. So select a bag of languages, some of which you know and others you are interested in learning. For e.g I was interested in the field of big data analytics and data science. So I was ready to learn R, scala, python and upcoming language in this field like ruby.&lt;/p&gt;
+
+&lt;p&gt;Next task is to find all the organizations based on these languages. You can select them from the list of organizations that were selected previous year. Join the mailing lists of these organizations. Introduce yourself to the community and ask them on how to get started with their organization. Understand the technologies they use and proceed learning all you need to know.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgflip.com/i/16cwg8&quot;&gt;&lt;img src=&quot;https://i.imgflip.com/16cwg8.jpg&quot; title=&quot;made at imgflip.com&quot; align=&quot;middle&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t just rush your way through this process or get stuck in a single organization. You never know which organizations are getting selected the next year and which one’s won’t. Go through the selected list of organizations from previous years, 2015, 2014 to see if they got selected. The best of your chance is to remain in contact with as many organizations as you can at this point. Follow up on their reply and do as they ask. Sometimes, they give you small tasks to complete. Eliminate those organizations which are way too difficult to understand, one’s with no replies, etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;bcode-code-codeb&quot;&gt;&lt;b&gt;Code! Code! Code!&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;Well, your journey till now was just to get the feel of how open source community works. Real action must begin now. You should setup a development environment for the software/ application you are interested in. This is ugliest phase of all as most of the applications do not have a very well written installation script, however this is where perseverance comes into picture. If there comes up any issue just ask away on the IRC channel or the mailing list. Trust me, someone would always answer !&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/images/GSOC/code.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/div&gt;
+
+&lt;!-- &lt;img align=&quot;center&quot; src=&quot;/images/GSOC/code.jpg&quot; height=&quot;500px&quot; width=&quot;500px&quot;&gt; --&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;After you’re done with all this, you should probably browse through their issue tracker (bugzilla, github or whatever they use) and look for a suitable bug. If you’re able to fix some bugs, you’re on the right track and doing great! However if you are not able to, try to go through the code again, and never ever stop trying. One of the many things that you would learn in GsoC is the ability of understanding complex piece of code in short period of time, and perseverance, two important abilities that are expected in a software engineer.&lt;/p&gt;
+
+&lt;p&gt;Contributions are considered most valuable in GsoC. May it be a small bug fix or a great patch, they will appreciate you. You will be known inside the community which will make your chances of selection better ahead.&lt;/p&gt;
+
+&lt;h2 id=&quot;bproposal-makingb&quot;&gt;&lt;b&gt;Proposal making&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;This is the most important phase of your GsoC journey. Your proposal will be throughly evaluated by your mentors. Making a &lt;a href=&quot;http://teom.org/blog/kde/how-to-write-a-kick-ass-proposal-for-google-summer-of-code/&quot;&gt;kickass proposal&lt;/a&gt; is always considered more important than your past contributions.&lt;/p&gt;
+
+&lt;p&gt;Now, you might have zeroed down to about two or three organizations in which you should be contributing. Go through their proposed list of projects. All this projects will seem intimidating for a start. So give enough time to understand the projects. Google your stuff. The earlier you start, the stronger your proposal.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/images/GSOC/download.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is generally considered a bad idea to apply to just one organisation. Even if you are a very active contributor to a specific project and are assured of getting selected, consider applying to another project. Go through the same cycle as you did with the first project. It will be much easier to dive into this new organisation because you are already familiar with where to look and what to ask. It will be tiresome, and you’ll have to divide time, but it might be worth it.(Believe me!)&lt;/p&gt;
+
+&lt;h2 id=&quot;bhappy-programmingb&quot;&gt;&lt;b&gt;Happy Programming&lt;b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;This is all you can do to lift your chances in getting selected for GSOC. All the things I pointed out are not always the expected circumstances. Situations change. They change all the time. Act your way smart. Once you have taken the initiative never turn back.&lt;/p&gt;
+
+&lt;p&gt;All the best :)&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/images/GSOC/download (1).jpg&quot; alt=&quot;image&quot; /&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 24 Jun 2016 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/gsoc/2016/06/24/How-to-Crack-GSOC.html</link>
+        <guid isPermaLink="true">http://localhost:4000/gsoc/2016/06/24/How-to-Crack-GSOC.html</guid>
+        
+        
+        <category>GSOC</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -20,8 +108,8 @@
 &lt;h2 id=&quot;licence&quot;&gt;Licence&lt;/h2&gt;
 </description>
         <pubDate>Fri, 13 May 2016 16:55:35 +0530</pubDate>
-        <link>http://shahsaurabh.me/personal/2016/05/13/welcome-to-yummy.html</link>
-        <guid isPermaLink="true">http://shahsaurabh.me/personal/2016/05/13/welcome-to-yummy.html</guid>
+        <link>http://localhost:4000/personal/2016/05/13/welcome-to-yummy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/personal/2016/05/13/welcome-to-yummy.html</guid>
         
         
         <category>Personal</category>
@@ -231,8 +319,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 22 Apr 2016 00:00:00 +0530</pubDate>
-        <link>http://shahsaurabh.me/gsoc/2016/04/22/CSS-Animation.html</link>
-        <guid isPermaLink="true">http://shahsaurabh.me/gsoc/2016/04/22/CSS-Animation.html</guid>
+        <link>http://localhost:4000/gsoc/2016/04/22/CSS-Animation.html</link>
+        <guid isPermaLink="true">http://localhost:4000/gsoc/2016/04/22/CSS-Animation.html</guid>
         
         <category>css</category>
         
@@ -272,8 +360,8 @@ The answer to these questions is neither. The most important “events” as su
 
 </description>
         <pubDate>Fri, 30 Jan 2015 00:00:00 +0530</pubDate>
-        <link>http://shahsaurabh.me/personal/2015/01/30/My-Second-Home.html</link>
-        <guid isPermaLink="true">http://shahsaurabh.me/personal/2015/01/30/My-Second-Home.html</guid>
+        <link>http://localhost:4000/personal/2015/01/30/My-Second-Home.html</link>
+        <guid isPermaLink="true">http://localhost:4000/personal/2015/01/30/My-Second-Home.html</guid>
         
         <category>College</category>
         
