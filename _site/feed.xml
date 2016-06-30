@@ -5,9 +5,70 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Jun 2016 12:39:07 +0530</pubDate>
-    <lastBuildDate>Fri, 24 Jun 2016 12:39:07 +0530</lastBuildDate>
+    <pubDate>Thu, 30 Jun 2016 13:26:55 +0530</pubDate>
+    <lastBuildDate>Thu, 30 Jun 2016 13:26:55 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>GSOC Journey - Midterm</title>
+        <description>&lt;s&gt;Yeah, 28th of June it is, Google will either make a decision to end my GSOC journey or pay me the biggest check of my life.&lt;/s&gt;
+&lt;p&gt;Google chose the latter one. I passed! 52 conversations, personal messages and tonnes of github discussions, this was brainstorming. So on this day I decided to jot down the bittersweet memories which has impacted my life greatly.&lt;/p&gt;
+
+&lt;h2 id=&quot;bman-of-the-hourb&quot;&gt;&lt;b&gt;Man of the hour&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;23rd April turned out to be the biggest day of my life. Getting selected for Google Summer of Code is the biggest victory ever achieved. This marked the end of continuous grapple and beginning of fresh journey. This day I realized that GSOC is not just an internship which provides a huge lot of money. It presents the opportunity to work with someone who is far more experienced and intelligent than me. I get the chance to work with  an exceptional organization and contribute a real world software. GSOC for me was full of sacrifices which turned glory.&lt;/p&gt;
+
+&lt;h2 id=&quot;bfirst-hurdleb&quot;&gt;&lt;b&gt;First hurdle&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;I am not a long time contributer of open source world. I started contributing open source with the soul purpose of cracking GSOC. So getting selected in &lt;b&gt;Ruby&lt;/b&gt; organization was a serious challenge.
+Let’s start by quoting my mentor’s first message :&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;” Congrats on being accepted!
+For a start, we should start thinking about how we would be able to quickly benchmark across multiple commits.
+From my previous discussions with @sam, we want to build a docker image for each commit made to Ruby and tag it with the commit’s SHA1. So a few things to think about here:
+How can we automate the building of those images?
+How do we build each image fast? (One solution is to build each image using the previous image as the base so we don’t have to recompile every thing each time)
+Are we able to store everything on Docker hub?
+Once this is done, we can start thinking about how to make the magic for bisecting happen “&lt;/i&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Agh! This was &lt;b&gt;scary&lt;/b&gt;. Never heard any of these stuff before. Anyways, a Gsocer has to master the art of reading other’s code. And that’s what I did this whole period. I learnt docker and slowly figured out what each of these words meant. Went through thousands of lines of code inspecting the details.&lt;/p&gt;
+
+&lt;p&gt;So, starting around mid-days of community bonding period we worked around 20 days setting up the docker images for each commit in ruby. I kept on learning new features, clarifying my doubts along the way. But one day mentor messaged me :&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt; “ As of right now, I’ll like you to stop working on the Docker integration stuff because I feel that we might have assigned you a task that is too difficult for you to complete given your current level of experience. Instead we will like you to focus on … “ &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;and assigned me a new task. I need to take that as a failure!&lt;/p&gt;
+
+&lt;h2 id=&quot;bits-differentb&quot;&gt;&lt;b&gt;It’s different!&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;Contributing open source for a short time and getting selected in Ruby which works on language itself was intimidating. During this time I observed many differences in the way other organizations operate and how I steered my journey. There are many organizations which have there prime focus on GSOC projects for development. In my case, its obvious that Ruby has many bigger activities to deal with. My mentor is mentoring two different GSOC organizations and is a core contributer of discourse along with rubybench. Again, its evident that he has greater problems to take care of. Besides, we don’t follow any specific timeline.&lt;/p&gt;
+
+&lt;h2 id=&quot;blast-shotb&quot;&gt;&lt;b&gt;Last shot!&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;My new task was :&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;” What if all our benchmarks are implemented in Sequel? How fast would it be? How many objects would be allocated?
+I feel we should split off all “database” specs from the Rails umbrella and make the suite of tests compare “sequel” to “Active Record”, as it stands it is totally unclear how much performance is left on the table cause there is nothing to compare “Active Record” to.
+So start looking at our ActiveRecord benchmarks and write similar benchmarks using Sequel. “&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;This was my last opportunity to prove myself before midterm. Till now, no real contributions(PR’s) on github. Fortunately this time, I had previous knowledge of activerecord. All I had to do was take my time to go through all the activerecord benchmarks and convert them to sequel.&lt;/p&gt;
+
+&lt;p&gt;6 days ago I got my greatest ever PR merged consisting of 593 additions and 29 deletions. This was exceptional and a huge relief.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imgflip.com/i/16ix4v&quot;&gt;&lt;img src=&quot;https://i.imgflip.com/16ix4v.jpg&quot; title=&quot;made at imgflip.com&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Task remains to tackle frontend and my sequel benchmarks will be up and running in rubybench.org.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 27 Jun 2016 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/gsoc/2016/06/27/GSOC-Journey-Midterm.html</link>
+        <guid isPermaLink="true">http://localhost:4000/gsoc/2016/06/27/GSOC-Journey-Midterm.html</guid>
+        
+        
+        <category>GSOC</category>
+        
+      </item>
     
       <item>
         <title>How to crack GSOC?</title>
@@ -94,238 +155,6 @@
         
         
         <category>GSOC</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;Welcome to use Yummy Jekyll as your jekyll theme!&lt;/p&gt;
-
-&lt;h2 id=&quot;yummy-jekyll&quot;&gt;Yummy Jekyll&lt;/h2&gt;
-
-&lt;h2 id=&quot;how-to-install&quot;&gt;How to install&lt;/h2&gt;
-
-&lt;h2 id=&quot;licence&quot;&gt;Licence&lt;/h2&gt;
-</description>
-        <pubDate>Fri, 13 May 2016 16:55:35 +0530</pubDate>
-        <link>http://localhost:4000/personal/2016/05/13/welcome-to-yummy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/personal/2016/05/13/welcome-to-yummy.html</guid>
-        
-        
-        <category>Personal</category>
-        
-      </item>
-    
-      <item>
-        <title>CSS Animation</title>
-        <description>&lt;p&gt;Quick note about CSS animation.&lt;/p&gt;
-
-&lt;h2 id=&quot;css-animation&quot;&gt;CSS Animation&lt;/h2&gt;
-
-&lt;p&gt;CSS3 animation lets an element gradually change from one style to another.&lt;/p&gt;
-
-&lt;p&gt;Two steps:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Use &lt;code&gt;@keyframes&lt;/code&gt; to define an animation.&lt;/li&gt;
-  &lt;li&gt;Set this animation on an element with animation properties&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;We could set properties one-by-one or with following shorthand:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;animation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;animation-name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;animation-duration&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;animation-timing-function&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;animation-delay&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;animation-iteration-count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;animation-direction&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;animation-fill-mode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;animation-play-state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;keyframes&quot;&gt;@keyframes&lt;/h2&gt;
-
-&lt;p&gt;It defines what the animation looks like at each stage of the animation timeline. It is composed of:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Name of the animation. For example, changeColor.&lt;/li&gt;
-  &lt;li&gt;Stages: From 0% to 100% to represent the whole process of animation&lt;/li&gt;
-  &lt;li&gt;CSS Properties: The CSS properties defined for each stage of the animation timeline.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Following example creates an animation called &lt;code&gt;changeColor&lt;/code&gt; and assign it to &lt;code&gt;div:hover&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;k&quot;&gt;@keyframes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;changeColor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;changeColor&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ease&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;.1s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In above example, we could also use &lt;code&gt;from&lt;/code&gt; to represent &lt;code&gt;0%&lt;/code&gt; and &lt;code&gt;to&lt;/code&gt; to represent &lt;code&gt;100%&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;animation-properties&quot;&gt;Animation Properties&lt;/h2&gt;
-
-&lt;p&gt;It has following properties:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;animation-name&lt;/li&gt;
-  &lt;li&gt;animation-duration&lt;/li&gt;
-  &lt;li&gt;animation-timing-function&lt;/li&gt;
-  &lt;li&gt;animation-delay&lt;/li&gt;
-  &lt;li&gt;animation-iteration-count&lt;/li&gt;
-  &lt;li&gt;animation-direction&lt;/li&gt;
-  &lt;li&gt;animation-fill-mode&lt;/li&gt;
-  &lt;li&gt;animation-play-state&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;animation-name&quot;&gt;animation-name&lt;/h3&gt;
-
-&lt;p&gt;The name of the animation, defined in the @keyframes.&lt;/p&gt;
-
-&lt;h3 id=&quot;animation-duration&quot;&gt;animation-duration&lt;/h3&gt;
-
-&lt;p&gt;The duration of the animation, in seconds (e.g., 5s) or milliseconds (e.g., 200ms).&lt;/p&gt;
-
-&lt;h3 id=&quot;animation-timing-function&quot;&gt;animation-timing-function&lt;/h3&gt;
-
-&lt;p&gt;The speed curve or pace of the animation:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Timing Function&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;linear&lt;/td&gt;
-      &lt;td&gt;The animation has the same speed from start to end&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ease&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Default value&lt;/strong&gt;. The animation has a slow start, then fast, before it ends slowly.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ease-in&lt;/td&gt;
-      &lt;td&gt;Start slowly and end fast.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ease-out&lt;/td&gt;
-      &lt;td&gt;Start more quickly than linear ones and end slowly. The opposite of ease-in.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ease-in-out&lt;/td&gt;
-      &lt;td&gt;Both a slow start and a slow end&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;initial&lt;/td&gt;
-      &lt;td&gt;Sets this property to its default value. So &lt;code&gt;ease&lt;/code&gt;.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;inherit&lt;/td&gt;
-      &lt;td&gt;Inherits this property from its parent element.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Check &lt;a href=&quot;https://developers.google.com/web/fundamentals/design-and-ui/animations/the-basics-of-easing?hl=en&quot;&gt;The basics of easing&lt;/a&gt; for details.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;animation-delay&quot;&gt;animation-delay&lt;/h3&gt;
-
-&lt;p&gt;It specifies when the animation will start. The value is defined in seconds (s) or milliseconds (mil).&lt;/p&gt;
-
-&lt;h3 id=&quot;animation-iteration-count&quot;&gt;animation-iteration-count&lt;/h3&gt;
-
-&lt;p&gt;It specifies the number of times that the animation will play. The possible values are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a specific number of iterations (default is 1)&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;infinite&lt;/code&gt; - repeats forever&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;initial&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;inherit&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;animation-direction&quot;&gt;animation-direction&lt;/h3&gt;
-
-&lt;p&gt;It specifies whether the animation should play forward, reverse, or in alternate cycles.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;normal&lt;/code&gt; - Default. On each cycle the animation resets to the beginning state (0%) and plays forward again (to 100%).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;reverse&lt;/code&gt; - On each cycle the animation resets to the end state (100%) and plays backwards (to 0%).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;alternate&lt;/code&gt; - On each odd cycle, the animation plays forward (0% to 100%). On each even cycle, the animation plays backwards (100% to 0%).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;alternate-reverse&lt;/code&gt; - On each odd cycle, the animation plays in reverse (100% to 0%). On each even cycle, the animation plays forward (0% or 100%).&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;animation-fill-mode&quot;&gt;animation-fill-mode&lt;/h3&gt;
-
-&lt;p&gt;It specifies if the animation styles are visible before or after the animation plays.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;normal&lt;/code&gt; - Default. The animation does not apply any styles to the element, before or after the animation.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;forwards&lt;/code&gt; - After the animation is finished, the styles defined in the final keyframe (100%) are retained by the element.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;backwards&lt;/code&gt; - Before the animation (during the animation delay), the styles of the initial keyframe (0%) are applied to the element.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code&gt;both&lt;/code&gt; - &lt;code&gt;forwards&lt;/code&gt; with &lt;code&gt;backwards&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;animation-play-state&quot;&gt;animation-play-state&lt;/h3&gt;
-
-&lt;p&gt;Two values: &lt;code&gt;running&lt;/code&gt; and &lt;code&gt;paused&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;It specifies whether the animation is &lt;code&gt;playing&lt;/code&gt; or &lt;code&gt;paused&lt;/code&gt;. &lt;strong&gt;Resuming a paused animation starts the animation where it was left off. But if pause an animation, the element style will return back to its origin.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;animation-play-state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;paused&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;multiple-animations&quot;&gt;Multiple Animations&lt;/h2&gt;
-
-&lt;p&gt;Add multiple animations to a selector with comma:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animationA&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animationB&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;refs&quot;&gt;Refs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.imooc.com/learn/33&quot;&gt;Imooc 十天精通CSS3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://robots.thoughtbot.com/css-animation-for-beginners#animation-iteration-count&quot;&gt;CSS Animation for Beginners&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp&quot;&gt;CSS3 animation-timing-function Property&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 22 Apr 2016 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/gsoc/2016/04/22/CSS-Animation.html</link>
-        <guid isPermaLink="true">http://localhost:4000/gsoc/2016/04/22/CSS-Animation.html</guid>
-        
-        <category>css</category>
-        
-        
-        <category>GSoC</category>
         
       </item>
     
