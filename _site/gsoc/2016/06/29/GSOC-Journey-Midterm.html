@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png">
+
+    <title>GSOC Journey - Midterm</title>
+    <meta name="description"
+          content="Yeah, 28th of June it is, Google will either make a decision to end my GSOC journey or pay me the biggest check of my life.Google chose the latter one. I pas...">
+
+    <link rel="canonical" href="http://localhost:4000/gsoc/2016/06/29/GSOC-Journey-Midterm.html">
+    <link rel="alternate" type="application/rss+xml" title="Saurabh Shah" href="http://localhost:4000/feed.xml">
+
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Third-Party CSS -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/octicons/octicons/octicons.css">
+    <link rel="stylesheet" href="/bower_components/hover/css/hover-min.css">
+    <link rel="stylesheet" href="/bower_components/primer-markdown/dist/user-content.min.css">
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="/assets/css/common.css">
+
+    <!-- CSS set in page -->
+    
+
+    <!-- CSS set in layout --> 
+    
+    <link rel="stylesheet" href="/assets/css/sidebar-post-nav.css">
+    
+
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+    <div class="container">
+      <!--  <a id="site-header-brand" href="/" title="Saurabh Shah">
+            <span class="octicon octicon-mark-github"></span> Saurabh Shah
+        </a> -->
+        <nav class="site-header-nav" role="navigation">
+            
+            <a href="/"
+               class=" site-header-nav-item hvr-underline-from-center"
+               target=""
+               title="Home">
+                Home
+            </a>
+            
+            <a href="/open-source"
+               class=" site-header-nav-item hvr-underline-from-center"
+               target=""
+               title="Open-Source">
+                Open-Source
+            </a>
+            
+            <a href="/blog"
+               class=" site-header-nav-item hvr-underline-from-center"
+               target=""
+               title="Blogs">
+                Blogs
+            </a>
+            
+            <a href="/about"
+               class=" site-header-nav-item hvr-underline-from-center"
+               target=""
+               title="About">
+                About
+            </a>
+            
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <section class="jumbotron geopattern" data-pattern-id="GSOC Journey - Midterm">
+    <div class="container">
+        <div id="jumbotron-meta-info">
+            <h1>GSOC Journey - Midterm</h1>
+            <span class="meta-info">
+                
+                
+                <span class="octicon octicon-calendar"></span> 2016/06/29
+                
+            </span>
+        </div>
+    </div>
+</section>
+<script>
+    $(document).ready(function(){
+
+        $('.geopattern').each(function(){
+            $(this).geopattern($(this).data('pattern-id'));
+        });
+
+    });
+</script>
+<article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="row">
+
+        <div class="col-md-8 markdown-body">
+
+            <s>Yeah, 28th of June it is, Google will either make a decision to end my GSOC journey or pay me the biggest check of my life.</s>
+<p>Google chose the latter one. I passed! 52 conversations, personal messages and tonnes of github discussions, this was brainstorming. So on this day I decided to jot down the bittersweet memories which has impacted my life greatly.</p>
+
+<h2 id="bman-of-the-hourb"><b>Man of the hour</b></h2>
+<p>23rd April turned out to be the biggest day of my life. Getting selected for Google Summer of Code is the biggest victory ever achieved. This marked the end of continuous grapple and beginning of fresh journey. This day I realized that GSOC is not just an internship which provides a huge lot of money. It presents the opportunity to work with someone who is far more experienced and intelligent than me. I get the chance to work with  an exceptional organization and contribute a real world software. GSOC for me was full of sacrifices which turned glory.</p>
+
+<h2 id="bfirst-hurdleb"><b>First hurdle</b></h2>
+
+<p>I am not a long time contributer of open source world. I started contributing open source with the soul purpose of cracking GSOC. So getting selected in <b>Ruby</b> organization was a serious challenge.
+Let’s start by quoting my mentor’s first message :</p>
+
+<p><i>” Congrats on being accepted!
+For a start, we should start thinking about how we would be able to quickly benchmark across multiple commits.
+From my previous discussions with @sam, we want to build a docker image for each commit made to Ruby and tag it with the commit’s SHA1. So a few things to think about here:
+How can we automate the building of those images?
+How do we build each image fast? (One solution is to build each image using the previous image as the base so we don’t have to recompile every thing each time)
+Are we able to store everything on Docker hub?
+Once this is done, we can start thinking about how to make the magic for bisecting happen “</i>
+<br /></p>
+
+<p>Agh! This was <b>scary</b>. Never heard any of these stuff before. Anyways, a Gsocer has to master the art of reading other’s code. And that’s what I did this whole period. I learnt docker and slowly figured out what each of these words meant. Went through thousands of lines of code inspecting the details.</p>
+
+<p>So, starting around mid-days of community bonding period we worked around 20 days setting up the docker images for each commit in ruby. I kept on learning new features, clarifying my doubts along the way. But one day mentor messaged me :</p>
+
+<p><i> “ As of right now, I’ll like you to stop working on the Docker integration stuff because I feel that we might have assigned you a task that is too difficult for you to complete given your current level of experience. Instead we will like you to focus on … “ </i></p>
+
+<p>and assigned me a new task. I need to take that as a failure!</p>
+
+<h2 id="bits-differentb"><b>It’s different!</b></h2>
+
+<p>Contributing open source for a short time and getting selected in Ruby which works on language itself was intimidating. During this time I observed many differences in the way other organizations operate and how I steered my journey. There are many organizations which have there prime focus on GSOC projects for development. In my case, its obvious that Ruby has many bigger activities to deal with. My mentor is mentoring two different GSOC organizations and is a core contributer of discourse along with rubybench. Again, its evident that he has greater problems to take care of. Besides, we don’t follow any specific timeline.</p>
+
+<h2 id="blast-shotb"><b>Last shot!</b></h2>
+
+<p>My new task was :</p>
+
+<p><i>” What if all our benchmarks are implemented in Sequel? How fast would it be? How many objects would be allocated?
+I feel we should split off all “database” specs from the Rails umbrella and make the suite of tests compare “sequel” to “Active Record”, as it stands it is totally unclear how much performance is left on the table cause there is nothing to compare “Active Record” to.
+So start looking at our ActiveRecord benchmarks and write similar benchmarks using Sequel. “</i></p>
+
+<p>This was my last opportunity to prove myself before midterm. Till now, no real contributions(PR’s) on github. Fortunately this time, I had previous knowledge of activerecord. All I had to do was take my time to go through all the activerecord benchmarks and convert them to sequel.</p>
+
+<p>6 days ago I got my greatest ever PR merged consisting of 593 additions and 29 deletions. This was exceptional and a huge relief.</p>
+
+<p><a href="https://imgflip.com/i/16ix4v"><img src="https://i.imgflip.com/16ix4v.jpg" title="made at imgflip.com" /></a>
+<br /></p>
+
+<p>Task remains to tackle frontend and my sequel benchmarks will be up and running in rubybench.org.</p>
+
+
+
+            <!-- Comments -->
+            <div class="comments">
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+         * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+         */
+        /*
+         var disqus_config = function () {
+         this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+         };
+         */
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+
+            s.src = '//my_disque_settings/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+
+        </div>
+
+        <div class="col-md-4">
+            <h3>Post Directory</h3>
+<div id="post-directory-module">
+<section class="post-directory">
+    <!-- Links that trigger the jumping -->
+    <!-- Added by javascript below -->
+    <dl></dl>
+</section>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        $( "article h2" ).each(function( index ) {
+            $(".post-directory dl").append("<dt><a class=\"jumper\" hre=#" +
+                    $(this).attr("id")
+                    + ">"
+                    + $(this).text()
+                    + "</a></dt>");
+
+            var children = $(this).nextUntil("h2", "h3")
+
+            children.each(function( index ) {
+                $(".post-directory dl").append("<dd><a class=\"jumper\" hre=#" +
+                        $(this).attr("id")
+                        + ">"
+                        + "&nbsp;&nbsp;- " + $(this).text()
+                        + "</a></dd>");
+            });
+        });
+
+        var fixmeTop = $('#post-directory-module').offset().top - 100;       // get initial position of the element
+
+        $(window).scroll(function() {                  // assign scroll event listener
+
+            var currentScroll = $(window).scrollTop(); // get current position
+
+            if (currentScroll >= fixmeTop) {           // apply position: fixed if you
+                $('#post-directory-module').css({      // scroll to that element or below it
+                    top: '100px',
+                    position: 'fixed',
+                    width: 'inherit'
+                });
+            } else {                                   // apply position: static
+                $('#post-directory-module').css({      // if you scroll above it
+                    position: 'inherit',
+                    width: 'inherit'
+                });
+            }
+
+        });
+
+        $("a.jumper").on("click", function( e ) {
+
+            e.preventDefault();
+
+            $("body, html").animate({
+                scrollTop: ($( $(this).attr('hre') ).offset().top - 100)
+            }, 600);
+
+        });
+    });
+
+</script>
+        </div>
+
+    </div>
+
+</article>
+
+        </div>
+
+     <footer class="container">
+
+    <div class="site-footer">
+
+        <!-- <div class="copyright pull-left">
+            <!-- 请不要更改这一行 方便其他人知道模板的来源 谢谢 -->
+            <!-- Please keep this line to let others know where this theme comes from. Thank you :D 
+            Power by <a href="https://github.com/DONGChuan/Yummy-Jekyll">Yummy Jekyll</a>
+        </div> -->
+
+     <!--   <a href="https://github.com/DONGChuan" target="_blank" aria-label="view source code">
+            <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+        </a> -->
+
+        <div class="pull-right">
+            <a href="javascript:window.scrollTo(0,0)" >TOP</a>
+        </div>
+
+    </div>
+
+    <!-- Third-Party JS -->
+    <script type="text/javascript" src="/bower_components/geopattern/js/geopattern.min.js"></script>
+
+    <!-- My JS -->
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+
+    
+
+    <!-- Google Analytics -->
+    <div style="display:none">
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-72165600-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+    </div>
+
+</footer>
+
+
+    </body>
+
+ </html>

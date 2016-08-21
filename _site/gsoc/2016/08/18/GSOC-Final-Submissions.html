@@ -8,11 +8,11 @@
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png">
 
-    <title>GSOC Journey - Midterm</title>
+    <title>GSOC - Final Submissions</title>
     <meta name="description"
-          content="Yeah, 28th of June it is, Google will either make a decision to end my GSOC journey or pay me the biggest check of my life.Google chose the latter one. I pas...">
+          content=" Welcome ">
 
-    <link rel="canonical" href="http://localhost:4000/gsoc/2016/06/27/GSOC-Journey-Midterm.html">
+    <link rel="canonical" href="http://localhost:4000/gsoc/2016/08/18/GSOC-Final-Submissions.html">
     <link rel="alternate" type="application/rss+xml" title="Saurabh Shah" href="http://localhost:4000/feed.xml">
 
     <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
@@ -83,14 +83,14 @@
 
 
         <div class="content">
-            <section class="jumbotron geopattern" data-pattern-id="GSOC Journey - Midterm">
+            <section class="jumbotron geopattern" data-pattern-id="GSOC - Final Submissions">
     <div class="container">
         <div id="jumbotron-meta-info">
-            <h1>GSOC Journey - Midterm</h1>
+            <h1>GSOC - Final Submissions</h1>
             <span class="meta-info">
                 
                 
-                <span class="octicon octicon-calendar"></span> 2016/06/27
+                <span class="octicon octicon-calendar"></span> 2016/08/18
                 
             </span>
         </div>
@@ -111,55 +111,67 @@
 
         <div class="col-md-8 markdown-body">
 
-            <s>Yeah, 28th of June it is, Google will either make a decision to end my GSOC journey or pay me the biggest check of my life.</s>
-<p>Google chose the latter one. I passed! 52 conversations, personal messages and tonnes of github discussions, this was brainstorming. So on this day I decided to jot down the bittersweet memories which has impacted my life greatly.</p>
+            <h2 id="b-welcome-b"><b> Welcome </b></h2>
 
-<h2 id="bman-of-the-hourb"><b>Man of the hour</b></h2>
-<p>23rd April turned out to be the biggest day of my life. Getting selected for Google Summer of Code is the biggest victory ever achieved. This marked the end of continuous grapple and beginning of fresh journey. This day I realized that GSOC is not just an internship which provides a huge lot of money. It presents the opportunity to work with someone who is far more experienced and intelligent than me. I get the chance to work with  an exceptional organization and contribute a real world software. GSOC for me was full of sacrifices which turned glory.</p>
+<p>Hi, my name is Saurabh Shah. I worked on Long Running Ruby and Rails Benchmarks project this Google Summer of Code under Ruby organization.</p>
 
-<h2 id="bfirst-hurdleb"><b>First hurdle</b></h2>
+<h2 id="b-description-b"><b> Description </b></h2>
 
-<p>I am not a long time contributer of open source world. I started contributing open source with the soul purpose of cracking GSOC. So getting selected in <b>Ruby</b> organization was a serious challenge.
-Let’s start by quoting my mentor’s first message :</p>
+<p><a href="https://rubybench.org/">RubyBench</a> is an amazing effort to keep long running benchmarks for Ruby and related projects (like Rails). Fixing performance bugs early on with proper set of benchmarks is cheap. Usually the longer we wait the more expensive it is to fix. This project aimed to improve RubyBench architecture with several added functionalities.</p>
 
-<p><i>” Congrats on being accepted!
-For a start, we should start thinking about how we would be able to quickly benchmark across multiple commits.
-From my previous discussions with @sam, we want to build a docker image for each commit made to Ruby and tag it with the commit’s SHA1. So a few things to think about here:
-How can we automate the building of those images?
-How do we build each image fast? (One solution is to build each image using the previous image as the base so we don’t have to recompile every thing each time)
-Are we able to store everything on Docker hub?
-Once this is done, we can start thinking about how to make the magic for bisecting happen “</i>
-<br /></p>
+<h2 id="b-work-done-b"><b> Work Done! </b></h2>
 
-<p>Agh! This was <b>scary</b>. Never heard any of these stuff before. Anyways, a Gsocer has to master the art of reading other’s code. And that’s what I did this whole period. I learnt docker and slowly figured out what each of these words meant. Went through thousands of lines of code inspecting the details.</p>
+<p>=&gt; Added sequel benchmarks for comparison with activerecord benchmarks in terms of performance. This included 3 repositories; ruby-bench-suite for adding sequel benchmarks, ruby-bench-docker for writing docker scripts and ruby-bench-web to run the benchmarks whenever there is an incoming hook from github.</p>
 
-<p>So, starting around mid-days of community bonding period we worked around 20 days setting up the docker images for each commit in ruby. I kept on learning new features, clarifying my doubts along the way. But one day mentor messaged me :</p>
+<ul>
+  <li>ruby-bench-suite</li>
+</ul>
 
-<p><i> “ As of right now, I’ll like you to stop working on the Docker integration stuff because I feel that we might have assigned you a task that is too difficult for you to complete given your current level of experience. Instead we will like you to focus on … “ </i></p>
+<p><a href="https://github.com/ruby-bench/ruby-bench-suite/commit/e8c495dce58b9902503b73ef2ec05e0c87be41a4">https://github.com/ruby-bench/ruby-bench-suite/commit/e8c495dce58b9902503b73ef2ec05e0c87be41a4</a>
+  <a href="https://github.com/ruby-bench/ruby-bench-suite/commit/8f6d93e0a680c27745b6a07b1c87f9285bcd1d80">https://github.com/ruby-bench/ruby-bench-suite/commit/8f6d93e0a680c27745b6a07b1c87f9285bcd1d80</a>
+  <a href="https://github.com/ruby-bench/ruby-bench-suite/commit/227bad262a060caee951e7ca50fe52c7bc1234f2">https://github.com/ruby-bench/ruby-bench-suite/commit/227bad262a060caee951e7ca50fe52c7bc1234f2</a>
+  <a href="https://github.com/ruby-bench/ruby-bench-suite/commit/cc10265ea8e5df19b6f94454b81d262361aca183">https://github.com/ruby-bench/ruby-bench-suite/commit/cc10265ea8e5df19b6f94454b81d262361aca183</a></p>
 
-<p>and assigned me a new task. I need to take that as a failure!</p>
+<ul>
+  <li>ruby-bench-docker</li>
+</ul>
 
-<h2 id="bits-differentb"><b>It’s different!</b></h2>
+<p><a href="https://github.com/ruby-bench/ruby-bench-docker/commit/e71204cdc6931a3249f556e043c36eca307c8429">https://github.com/ruby-bench/ruby-bench-docker/commit/e71204cdc6931a3249f556e043c36eca307c8429</a></p>
 
-<p>Contributing open source for a short time and getting selected in Ruby which works on language itself was intimidating. During this time I observed many differences in the way other organizations operate and how I steered my journey. There are many organizations which have there prime focus on GSOC projects for development. In my case, its obvious that Ruby has many bigger activities to deal with. My mentor is mentoring two different GSOC organizations and is a core contributer of discourse along with rubybench. Again, its evident that he has greater problems to take care of. Besides, we don’t follow any specific timeline.</p>
+<p><a href="https://github.com/ruby-bench/ruby-bench-docker/pull/20">https://github.com/ruby-bench/ruby-bench-docker/pull/20</a></p>
 
-<h2 id="blast-shotb"><b>Last shot!</b></h2>
+<ul>
+  <li>
+    <p>ruby-bench-web</p>
 
-<p>My new task was :</p>
+    <p><a href="https://github.com/ruby-bench/ruby-bench-web/pull/171">https://github.com/ruby-bench/ruby-bench-web/pull/171</a></p>
+  </li>
+</ul>
 
-<p><i>” What if all our benchmarks are implemented in Sequel? How fast would it be? How many objects would be allocated?
-I feel we should split off all “database” specs from the Rails umbrella and make the suite of tests compare “sequel” to “Active Record”, as it stands it is totally unclear how much performance is left on the table cause there is nothing to compare “Active Record” to.
-So start looking at our ActiveRecord benchmarks and write similar benchmarks using Sequel. “</i></p>
+<p>=&gt; Update readme and add bash scripts in all the directories to run respective benchmarks</p>
 
-<p>This was my last opportunity to prove myself before midterm. Till now, no real contributions(PR’s) on github. Fortunately this time, I had previous knowledge of activerecord. All I had to do was take my time to go through all the activerecord benchmarks and convert them to sequel.</p>
+<p><a href="https://github.com/ruby-bench/ruby-bench-docker/pull/22">https://github.com/ruby-bench/ruby-bench-docker/pull/22</a></p>
 
-<p>6 days ago I got my greatest ever PR merged consisting of 593 additions and 29 deletions. This was exceptional and a huge relief.</p>
+<p>=&gt; A simple benchmark regression notifier built into RubyBench. Have it track the benchmark results of the last X number of commits and report a regression if a new result exceeds the previous baseline.</p>
 
-<p><a href="https://imgflip.com/i/16ix4v"><img src="https://i.imgflip.com/16ix4v.jpg" title="made at imgflip.com" /></a>
-<br /></p>
+<p><a href="https://github.com/ruby-bench/ruby-bench-web/pull/174">https://github.com/ruby-bench/ruby-bench-web/pull/174</a></p>
 
-<p>Task remains to tackle frontend and my sequel benchmarks will be up and running in rubybench.org.</p>
+<h2 id="b-other-links-b"><b> Other Links </b></h2>
 
+<ul>
+  <li><a href="https://rubybench.org/">Rubybench - Long Running Benchmarks</a></li>
+  <li><a href="https://github.com/ruby-bench/ruby-bench-web">Ruby-Bench-Web</a></li>
+  <li><a href="https://github.com/ruby-bench/ruby-bench-docker">Ruby-Bench-Docker</a></li>
+  <li><a href="https://github.com/ruby-bench/ruby-bench-suite">Ruby-Bench-Suite</a></li>
+  <li><a href="https://summerofcode.withgoogle.com/projects/#5326839702618112">GSoC Project</a></li>
+</ul>
+
+<h2 id="b-contact-b"><b> Contact </b></h2>
+
+<ul>
+  <li>shahsaurabh0103@gmail.com</li>
+  <li><a href="http://shahsaurabh.me/">shahsaurabh.me</a></li>
+</ul>
 
 
             <!-- Comments -->
