@@ -20,7 +20,7 @@ repository: shahsaurabh0605/shahsaurabh0605.github.io
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://shahsaurabh.me
+url: http://shahsaurabh.tech
 #url: http://localhost:4000
 
 ## Gem
@@ -87,5 +87,5 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, Ruby, Docker, Travis CI]
-skill_web_keywords: [HTML, CSS, Boostrap, JS, MySQL, Ruby on Rails, Jekyll, PHP]
+skill_software_keywords: [Java, C, Ruby, MySQL]
+skill_web_keywords: [ReactJS, NodeJS,HTML5, CSS3, JS, Ruby on Rails, Jekyll]
