@@ -87,5 +87,5 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, Ruby, MySQL]
-skill_web_keywords: [ReactJS, NodeJS,HTML5, CSS3, JS, Ruby on Rails, Jekyll]
+skill_software_keywords: [Java, C, Ruby, MySQL, C#]
+skill_web_keywords: [ReactJS, NodeJS, ExpressJS, HTML5, CSS3, JS, Ruby on Rails, Jekyll]
